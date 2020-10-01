@@ -77,6 +77,8 @@ color: red !important;
 .fwiendCount, .box blurbs {
 color: red !important;
 font-size: 40px !important;
+min-height: 50% !important;
+width: auto !important;
 }
 
 .url {
