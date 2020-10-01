@@ -28,8 +28,13 @@ height: 100%;
 }
 
 @keyframes marquee {
-    0%   { transform: translate(0, 0); }
-    100% { transform: translate(-100%, 0); }
+0% {
+    text-indent: 100%;
+}
+
+100% {
+    text-indent: -180%;
+ }
 }
 
 .songTitle {
