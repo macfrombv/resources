@@ -43,7 +43,6 @@ font-size: 0px !important;
 
 .songTitle:after {
 font-size: 15px !important;
-vertical-align: middle;
 font-weight: bold;
 content: "Судно (Борис Рижий)" !important;
 animation: marquee 15s linear infinite;
