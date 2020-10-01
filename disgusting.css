@@ -1,0 +1,84 @@
+#header, #hSub {
+  font-family: 'Times New Roman', sans-serif;
+}
+
+#header {
+  background-color: transparent !important;
+  color: red !important;
+  height: 80px !important;
+  border-bottom: none !important;
+  box-shadow: 0 0 13px -3px #000 !important;
+}
+
+.logo span {
+  padding-top: 9px !important;
+  font-size: 30px;
+  color: red;
+  text-align: center !important;
+}
+
+#hSub {
+  background: rgba(0,0,0,0.24) !important;
+  background-color: transparent !important;
+  color: red !important;
+  margin-top: 17px !important;
+}
+
+#hSub a {
+  font-size: 14px;
+  color: red !important;
+  height: unset !important;
+  margin-right: 1px;
+  text-decoration: bold;
+}
+
+#container {
+  margin-top: 30px;
+}
+
+img {
+  filter: sepia(100%) saturate(300%) brightness(70%) hue-rotate(180deg);
+}
+body {
+  background: #141414 url("https://raw.githack.com/macfrombv/resources/master/heiisbeiis.gif") repeat fixed center;
+}
+
+* {
+color: red !important;
+font-family: "Times New Roman", Times, serif;
+border-color: red !important;
+}
+
+.rightHead, .tableLeft, .tableRight {
+background-color: transparent !important;
+text-decoration: underline !important;
+color: red !important;
+font-size: 25px !important;
+}
+
+#name {
+font-size: 25px !important;
+color: red !important;
+}
+
+.boxHead {
+background-color: transparent !important;
+font-size: 25px !important;
+}
+
+.blogs {
+background-color: transparent !important;
+}
+
+.boxInfo box {
+color: red !important;
+}
+
+.fwiendCount, .box blurbs {
+color: red !important;
+font-size: 40px !important;
+}
+
+.url {
+background-color: transparent !important;
+}
