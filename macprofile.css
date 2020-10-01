@@ -78,9 +78,3 @@ vertical-align: middle;
 
 .header {
 }
-
-.avatar {
-height: 128px; 
-object-position: top;
-object-fit: cover;
-}
