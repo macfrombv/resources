@@ -1,0 +1,98 @@
+.fwiendFace img {
+height: 128px; 
+object-position: top;
+object-fit: cover;
+}
+
+.tableRight img {
+height: 128px;
+object-position: top;
+object-fit: cover;
+}
+
+.tableRight img:hover {
+width: 100%;
+height: 100%;
+}
+
+@keyframes marquee {
+0% {
+    text-indent: 100%;
+}
+
+100% {
+    text-indent: -180%;
+ }
+}
+
+.songTitle {
+font-size: 15px !important;
+font-weight: bold;
+animation: marquee 15s linear infinite;
+}
+
+.logo {
+visibility: hidden;
+position: relative;
+left: calc(50% - 171px / 2);
+height: 40px;
+}
+
+.logo::after {
+visibility: visible;
+position: absolute;
+width: 171px !important;
+top: 0;
+left: 0;
+font-size: 15px !important;
+font-family: "Arial";
+font-weight: bold;
+content: "mac's page";
+color: black !important;
+}
+
+.songName b {
+display: none;
+}
+
+.songName img {
+display: none;
+}
+
+.player::before {
+content: "";
+display: block;
+position: relative;
+width: calc(40% -20px);
+height: 390px;
+max-width: 390px;
+background-position: 0 0;
+background-size: cover;
+background-image: url(https://myspace.windows93.net/u/1/avatar.jpg);
+vertical-align: middle;
+}
+
+.url {
+display: none !important;
+}
+
+* {
+background-image: transparent !important;
+background-color: #B5D3E7 !important;
+}
+
+#hUp a, #hSub a {
+color: black !important;
+}
+
+#hSub {
+visibility: visible;
+position: absolute;
+top: 0;
+left: 0;
+text-align: center !important;
+}
+
+.blog {
+    border: 1px solid #C71585 !important;
+}
