@@ -28,7 +28,7 @@ height: 100%;
 .songTitle {
 font-size: 15px !important;
 font-weight: bold;
-animation: marquee 15s linear infinite;
+animation: marquee 15s linear infinite !important;
 }
 
 .logo {
@@ -77,7 +77,7 @@ display: none !important;
 }
 
 * {
-background-image: transparent !important;
+background-image: transparent;
 background-color: #B5D3E7 !important;
 }
 
