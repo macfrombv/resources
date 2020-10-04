@@ -77,8 +77,8 @@ display: none !important;
 }
 
 * {
-background-image: transparent;
-background-color: #B5D3E7;
+background-image: transparent !important;
+background-color: #B5D3E7 !important;
 }
 
 #hUp a, #hSub a {
